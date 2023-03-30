@@ -20,7 +20,5 @@ public class RemedioController {
 	@PostMapping
 	public void cadastrar(@RequestBody DadosCadastroRemedio dados) {
 		repository.save(new Remedio(dados));
-		
 	}
-	
 }

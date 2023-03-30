@@ -13,7 +13,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "remedio")
+@Table(name = "Remedio")
 @Entity(name = "remedios")
 @Getter
 @Setter
@@ -26,7 +26,7 @@ public class Remedio {
 		this.nome=dados.nome();
 		this.via=dados.via();
 		this.lote=dados.lote();
-		this.quantidade=dados.quatidade();
+		this.quantidade=dados.quantidade();
 		this.validade=dados.validade();
 		this.laboratorio=dados.laboratorio();
 	}
